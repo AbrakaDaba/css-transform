@@ -1,0 +1,38 @@
+
+.transform_obj{
+    margin: 0 auto;
+    background: limegreen;
+    border: 1px solid tomato;
+    height: 100px;
+    transform-origin: 30% 30%;
+    transition: .3s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.55);
+}
+
+.translate:hover{
+ transform:translate(50%, -50%);
+}
+.rotate:hover{
+ transform:rotate(15deg);
+}
+.scalex:hover{
+ transform:scaleX(1.5);
+}
+.scaley:hover{
+ transform:scaleY(.5);
+}
+.scale:hover{
+ transform:scale(1.1);
+}
+.skewx:hover{
+ transform:skewX(10deg);
+}
+.skewy:hover{
+ transform:skewy(10deg);
+}
+.skew:hover{
+ transform:skew(10deg, 10deg);
+}
+.matrix:hover{
+    transform: matrix(.1, 1, 1, 1, 10, 10);
+}
